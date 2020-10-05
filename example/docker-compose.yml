@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  my-app:
+    build:
+      context: .
+    entrypoint: "nodemon /app/src/index.js"
+    container_name: my-app
+    network_mode: bridge
+    links:
+      - s4-client
+    volumes:
+      - .:/app
+
+  s4-client:
+    image: ideea/s4-client
+    container_name: s4-client
+    network_mode: bridge
+    environment:
+      - "S4_HOST=${S4_HOST}"
+      - "DEBUG=false"

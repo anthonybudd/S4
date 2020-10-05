@@ -1,0 +1,55 @@
+#!/bin/sh
+
+echo '         __ __'
+echo '   _____/ // /'
+echo '  / ___/ // /_'
+echo ' (__  )__  __/'
+echo '/____/  /_/   '
+echo '              '
+
+
+# Docker
+curl -sSL https://get.docker.com | sh
+sudo usermod -aG docker $USER
+
+# Docker Compose
+sudo apt-get install -y libffi-dev libssl-dev
+sudo apt-get install -y python3 python3-pip
+sudo apt-get remove python-configparser
+sudo pip3 -v install docker-compose
+
+# SSD
+sudo apt-get install -y exfat-fuse ntfs-3g
+sudo mkdir -p /mnt/ssd
+
+sudo lsblk -o UUID,NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL,MODEL
+
+echo ""
+echo "======================================"
+echo ""
+echo "INSTALL COMPLETE"
+echo ""
+sudo lsblk -o UUID,NAME,SIZE,LABEL | grep S4
+echo ""
+echo ""
+
+echo "1. Mount the SSD"
+echo "sudo mount /dev/XXX /mnt/ssd"
+echo ""
+
+echo "2. Add this line to /etc/fstab to auto-mount the SSD"
+echo "UUID=SSD_UUID_HERE /mnt/ssd exfat defaults,uid=1000,gid=1000 0 0"
+echo ""
+
+echo "3. Set S4_ROOT in .env to point to /mnt/ssd"
+echo 'sed -i "" "s#S4_ROOT=.*#S4_ROOT=/mnt/ssd#" .env'
+echo ""
+
+echo " 4. Create new MINIO_ACCESS_KEY and MINIO_SECRET_KEY"
+echo 'sed -i "" "s#ACCESS_KEY=.*#ACCESS_KEY=$(openssl rand -hex 10)#" .env'
+echo ""
+echo 'sed -i "" "s#SECRET_KEY=.*#SECRET_KEY=$(openssl rand -hex 20)#" .env'
+echo ""
+echo "cat .env"
+echo ""
+

@@ -1,0 +1,10 @@
+{
+    "name": "s4-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "dependencies": {
+        "aws-sdk": "^2.747.0"
+    },
+    "license": "MIT"
+}
