@@ -10,12 +10,11 @@ services:
     links:
       - s4-client
     volumes:
-      - .:/app
+      - ./src:/app/src
 
   s4-client:
     image: ideea/s4-client
     container_name: s4-client
     network_mode: bridge
     environment:
-      - "S4_HOST=${S4_HOST}"
-      - "DEBUG=false"
+      - "S4_HOST=http://s4utjsez3lk4azb2.onion"

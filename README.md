@@ -1,5 +1,5 @@
-<p  align="center">
-<img  width="192"  src="https://ideea.io/assets/img/logos/s4/s4-logo-dark.svg"  alt="S4">
+<p align="center">
+<img width="192" src="https://ideea.io/assets/img/logos/s4/s4-logo-dark.svg" alt="S4">
 </p>
 
 ---
@@ -10,6 +10,13 @@
 S4 is 100% compatible S3 storage, accessed through Tor and distributed using IPFS.
 
 Tor hides the physical location of the S4 server. [IPFS](https://github.com/ipfs/ipfs) makes your data permanently accessible and is impossible to take offline once it has been published. A [sidecar docker container](https://github.com/Ideea-inc/s4-client) is provided to seamlessly proxy requests from your existing S3 code over Tor to S4.
+
+
+<p align="center">
+<a href="https://youtu.be/WoWzC4yrGmM">
+<img width="450" src="https://ideea.io/assets/img/s4-youtube-embed.png" alt="S4 Video Tutorial">
+</a>
+</p>
 
 ## Create S4 server
 You can set-up your own local S4 Server in just 4 commands.
@@ -30,7 +37,7 @@ $ cd example/
 
 $ docker-compose up -d
 
-$ docker exec -ti my-app node /app/src/index.js
+$ docker exec -ti my-app node src/index.js
 ```
 
 ## Architecture
