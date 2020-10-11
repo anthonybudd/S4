@@ -70,7 +70,7 @@ S4 is designed to democratise object-storage technology so anyone can have S3-li
 
 -  `$ cd S4`
 
--  `$ ./set-up` 
+-  `$ ./install` 
 
 -  `$ sudo mount /dev/XXX /mnt/ssd`
 
