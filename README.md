@@ -9,7 +9,7 @@
 # S4
 S4 is 100% compatible S3 storage, accessed through Tor and distributed using IPFS.
 
-Tor hides the physical location of the S4 server. [IPFS](https://github.com/ipfs/ipfs) makes your data permanently accessible and is impossible to take offline. A [sidecar docker container](https://github.com/Ideea-inc/s4-client) is provided to seamlessly proxy requests from your existing S3 code over Tor to S4.
+Tor hides the physical location of the S4 server. [IPFS](https://github.com/ipfs/ipfs) makes your data permanently accessible and is impossible to take offline once it has been published. A [sidecar docker container](https://github.com/Ideea-inc/s4-client) is provided to seamlessly proxy requests from your existing S3 code over Tor to S4.
 
 ## Create S4 server
 You can set-up your own local S4 Server in just 4 commands.

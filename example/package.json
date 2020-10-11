@@ -4,7 +4,8 @@
     "description": "",
     "main": "src/index.js",
     "dependencies": {
-        "aws-sdk": "^2.747.0"
+        "aws-sdk": "^2.747.0",
+        "dotenv": "^8.2.0"
     },
     "license": "MIT"
 }
