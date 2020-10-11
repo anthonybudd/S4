@@ -60,7 +60,7 @@ If you want to try S4 in production or if you would like to support my work you 
 
 ## Build a Node
 <p  align="center">
-<img src="https://ideea.io/assets/img/s4-node.png" width="300" alt="S4 node">
+<img src="https://ideea.io/assets/img/s4-node.png#1" width="300" alt="S4 node">
 </p>
 S4 is designed to democratise object-storage technology so anyone can have S3-like data storage without needing to depend on giant cloud tech providers. It was specifically built to run on a Raspberry Pi in production. A full blog post has been provided with in-depth instructions on how to build your own S4 node. A basic overview is provided below.
 
