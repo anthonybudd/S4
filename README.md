@@ -13,7 +13,7 @@ Tor hides the physical location of the S4 server. [IPFS](https://github.com/ipfs
 
 
 <p align="center">
-<a href="https://youtu.be/WoWzC4yrGmM">
+<a href="https://youtu.be/RMNjpAmCvcQ">
 <img width="450" src="https://ideea.io/assets/img/s4-youtube-embed.png" alt="S4 Video Tutorial">
 </a>
 </p>
