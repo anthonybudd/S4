@@ -3,7 +3,7 @@
 </p>
 
 ---
-### [S4](https://ideea.io/s4) &nbsp;&nbsp;|&nbsp;&nbsp; [Getting Started](https://ideea.io/s4/getting-started-tutorial) &nbsp;&nbsp;|&nbsp;&nbsp; [Deploy a Cloud Node](https://app.ideea.io/sign-up/s4) &nbsp;&nbsp;|&nbsp;&nbsp; [Build a Node](https://github.com/Ideea-inc/S4) &nbsp;&nbsp;|&nbsp;&nbsp; [Ideea.io](https://ideea.io)
+### [S4](https://ideea.io/s4) &nbsp;&nbsp;|&nbsp;&nbsp; [Deploy a Cloud Node](https://app.ideea.io/sign-up/s4) &nbsp;&nbsp;|&nbsp;&nbsp; [Build a Node](https://github.com/Ideea-inc/s4#build-a-node) &nbsp;&nbsp;|&nbsp;&nbsp; [Ideea.io](https://ideea.io)
 ---
 
 # S4
