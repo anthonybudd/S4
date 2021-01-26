@@ -3,8 +3,9 @@
 </p>
 
 ---
-### [S4](https://ideea.io/s4) &nbsp;&nbsp;|&nbsp;&nbsp; [Deploy a Cloud Node](https://app.ideea.io/sign-up/s4) &nbsp;&nbsp;|&nbsp;&nbsp; [Build a Node](https://github.com/Ideea-inc/s4#build-a-node) &nbsp;&nbsp;|&nbsp;&nbsp; [Ideea.io](https://ideea.io)
+### [S4](https://ideea.io/s4) &nbsp;&nbsp;|&nbsp;&nbsp; [YouTube Tutorial](https://youtu.be/RMNjpAmCvcQ) &nbsp;&nbsp;|&nbsp;&nbsp; [Ideea.io](https://ideea.io) &nbsp;&nbsp;|&nbsp;&nbsp; [Hire Me](https://ideea.io/about#hire-me)
 ---
+
 
 # S4
 S4 is 100% compatible S3 storage, accessed through Tor and distributed using IPFS.
@@ -49,20 +50,12 @@ Tor does not just provide anonymity, Tor acts as a DNS. S4 uses Tor hidden servi
 
 IPFS acts as a CDN. Each S4 bucket is published to IPFS under a separate key allowing you to address your files using any existing IPFS HTTP gateway like this [https://ipfs.io/ipns/[BUCKET-KEY]/image.jpg](http://ipfs.io/ipns/QmTvcZ719MEiYjhn2RxwtiYGkJr6ea4xnSGqdxj5vRii8k/flag.jpg). This link will never change or go offline, the more people who request it, the faster the data will be returned to the user.
 
-## Deploy a Cloud Node
-If you want to try S4 in production or if you would like to support my work you can [Deploy a Cloud S4 Node](https://app.ideea.io/sign-up/s4) on my API platform. 
-| Size | Price | Unlimited Bandwidth | Unlimited Buckets |   |
-|---|---|:---:|:---:|---|
-| 500GB |  $50/Month | ☑️ |  ☑️ | [Deploy](https://app.ideea.io/sign-up/s4)|
-| 1TB   | $100/Month  |  ☑️ | ☑️  | [Deploy](https://app.ideea.io/sign-up/s4)  |
-| 2TB   | $180/Month  |  ☑️ | ☑️  | [Deploy](https://app.ideea.io/sign-up/s4)  |
-
 
 ## Build a Node
 <p  align="center">
 <img src="https://ideea.io/assets/img/s4-node.png#1" width="300" alt="S4 node">
 </p>
-S4 is designed to democratise object-storage technology so anyone can have S3-like data storage without needing to depend on giant cloud tech providers. It was specifically built to run on a Raspberry Pi in production. A full blog post has been provided with in-depth instructions on how to build your own S4 node. A basic overview is provided below.
+S4 is designed to democratise object-storage technology so anyone can have S3-like data storage without needing to depend on giant cloud tech providers. It was specifically built to run on a Raspberry Pi in production. A basic overview on how to create an S4 node is provided below.
 
 - Install Ubuntu 20.04
 
