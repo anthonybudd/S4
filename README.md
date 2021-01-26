@@ -36,6 +36,8 @@ Once you have created your local S4 server, you can test it using the included [
 ```sh
 $ cd example/
 
+$ nano .env
+
 $ docker-compose up -d
 
 $ docker exec -ti my-app node src/index.js
