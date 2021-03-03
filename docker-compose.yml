@@ -16,8 +16,8 @@ services:
       - ${S4_ROOT}/minio:/data
 
   ipfs:
-    image: ideea/s4-ipfs
-    # image: ideea/s4-ipfs:arm64v8
+    image: anthonybudd/s4-ipfs
+    # image: anthonybudd/s4-ipfs:arm64v8
     container_name: ipfs
     network_mode: bridge
     restart: always
@@ -32,8 +32,8 @@ services:
       - "IPFS_PATH=/ipfs"
 
   tor-proxy:
-    image: ideea/s4-tor-proxy
-    # image: ideea/s4-tor-proxy:arm64v8
+    image: anthonybudd/s4-tor-proxy
+    # image: anthonybudd/s4-tor-proxy:arm64v8
     container_name: tor-proxy
     network_mode: bridge
     restart: always

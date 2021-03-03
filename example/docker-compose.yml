@@ -13,7 +13,7 @@ services:
       - ./src:/app/src
 
   s4-client:
-    image: ideea/s4-client
+    image: anthonybudd/s4-client
     container_name: s4-client
     network_mode: bridge
     environment:
